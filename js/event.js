@@ -7,7 +7,7 @@ function checkHasSolution() {
     let endState = document.getElementById('endState').innerText;
     let startStateReversePairCount = reversePairCount(startState);
     let endStateReversePairCount = reversePairCount(endState);
-    let info = ''
+    let info;
     if(startStateReversePairCount % 2 !== endStateReversePairCount % 2) {
         info = 'No solution!';
     } else {

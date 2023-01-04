@@ -90,7 +90,7 @@ function reset() {
     document.getElementById('startState').innerText = '12345678x';
     document.getElementById('endState').innerText = '12345678x';
     arrange('12345678x');
-    document.getElementById('infoText').innerText = 'Author: 软件2005-20206961-陈锦绥';
+    document.getElementById('infoText').innerHTML = 'Author: <a href="https://github.com/jinsuichen" target="_blank">Jinsui Chen</a>';
 }
 
 document.getElementById('startButton').addEventListener('click', start);

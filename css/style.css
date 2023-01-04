@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div[class='setState']  button {
+    width: 80px;
+    height: 25px;
+}
+div[class='action']  button {
+    width: 100px;
+    height: 30px;
+}
+input[type='text'] {
+    width: 130px;
+    height: 20px;
+}
+
+div[class='displayState'] > div {
+    margin-top: 10px;
+}
+div[class='setState'] > div {
+    margin-top: 30px;
+}
+
+.container {
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 1200px;
+    height: 900px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.control {
+    box-sizing: border-box;
+    /*border: 1px solid blue;*/
+    border-right: 5px solid black;
+    height: 100%;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*align-items: center;*/
+
+    font-size: 18px;
+}
+.info {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+#infoText {
+    margin-top: 15px;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.action {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.control > div {
+    margin: auto auto;
+}
+
+
+.face {
+    box-sizing: border-box;
+    /*border: 1px solid blue;*/
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.item {
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.75);
+    height: 230px;
+    width: 230px;
+    line-height: 230px;
+    text-align: center;
+    font-size: 130px;
+    transition: all 0.2s;
+}
+
+/*#item1 {*/
+/*    transform: translateY(295px);*/
+/*}*/
+

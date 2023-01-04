@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8-puzzle-visualization</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <script type="module" src="js/PriorityQueue.js"></script>
+    <script type="module" src="js/algorithm.js"></script>
+    <script type="module" src="js/event.js"></script>
+    <script type="module" src="js/animation.js"></script>
+
+
+</head>
+<body>
+
+<!--    <span id="curState" style="display: none"></span>-->
+
+    <div class="container">
+        <div class="control">
+
+            <div class="displayState">
+                <div>
+                    <span>start&emsp;status: </span> <span id="startState">12345678x</span>
+                </div>
+                <div>
+                    <span>target status: </span> <span id="endState">12345678x</span>
+                </div>
+            </div>
+            <div class="info">
+                <div>
+                    <p>INFO</p>
+                    <p id="infoText">Author: 软件2005-20206961-陈锦绥</p>
+                </div>
+            </div>
+
+            <div class="setState">
+                <div>
+                    <label>
+                        <div>set start status</div>
+                        <input type="text" id="startStateText"/>
+                        <button id="setStartStateButton">Set</button>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <div>set target status</div>
+                        <input type="text" id="endStateText"/>
+                        <button id="setEndStateButton">Set</button>
+                    </label>
+                </div>
+            </div>
+
+            <div class="action">
+                <button id="startButton">Start</button>
+                <button id="randButton">Rand</button>
+                <button id="resetButton">Reset</button>
+                <a href="mailto:ischenjinsui@163.com"><button id="feedbackButton">Feedback</button></a>
+            </div>
+        </div>
+
+
+        <div class="face">
+            <div class="item" id="item1">1</div>
+            <div class="item" id="item2">2</div>
+            <div class="item" id="item3">3</div>
+            <div class="item" id="item4">4</div>
+            <div class="item" id="item5">5</div>
+            <div class="item" id="item6">6</div>
+            <div class="item" id="item7">7</div>
+            <div class="item" id="item8">8</div>
+            <div class="item" id="itemx">X</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

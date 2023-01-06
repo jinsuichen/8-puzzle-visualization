@@ -21,7 +21,7 @@ For demonstration purposes, you can click the "Random" button to get a random se
 
 If you enter a status that is illegal, the program will alert for it.
 
-### Unsolved judgments
+### Determining the no solution situation
 
 The algorithm will determine whether the set of states has a solution based on the inverse pair of the starting and ending states. If there is no solution, an alert will be given.
 
